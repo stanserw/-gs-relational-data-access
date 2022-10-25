@@ -2,8 +2,8 @@ package com.example.relationaldataaccess;
 
 public class Customer {
     private long id;
-    private String firstName;
-    private String lastName;
+    private final String firstName;
+    private final String lastName;
 
     public Customer(long id, String firstName, String lastName) {
         this.id = id;
